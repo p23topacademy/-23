@@ -1,5 +1,4 @@
-s = input("Введите символ: ")
-a = int(input("Введите длину линии: "))
-
-for i in range(a):
-    print(s)
+for i in range(1, 10):
+    for j in range(1, 10):
+        print(i, "*", j, "=", i * j)
+    print()
